@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IIFE模式</title>
+</head>
+<body>
+<h1>IIFE模块化，控制台查看结果</h1>
+<script src="module2.js"></script>
+<script src="module1.js"></script>
+<script>
+    console.log(myModule1.age);  //不能访问模块内部的变量
+    myModule1.getMessage();
+</script>
+</body>
+</html>
